@@ -7,6 +7,7 @@ npx create-expo-app@latest Gmusic --template blank@57
 
 --Toda Aula ao começar
 cd nome do projeto
+Npm I
 
 --Instalar as Bibliotecas
 
