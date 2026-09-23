@@ -2,16 +2,12 @@
 git config --global user.name LeonardoA
 git config --global user.email vas22soler@gmail.com
 
--- Criar um projeto vazio
-npx create-expo-app@latest Gmusic --template blank@57
+-- Criar o projeto
+npx create-expo-app@latest GMusic --template blank@57
+cd GMusic
 
---Toda Aula ao começar
-cd nome do projeto
-Npm I
-
---Instalar as Bibliotecas
-
+-- Instalar as bibliotecas
 npx expo install expo-audio expo-linear-gradient expo-splash-screen expo-status-bar
-npx expo install react-native-safe-area-context @react-native-comumunity/slider
+npx expo install react-native-safe-area-context @react-native-community/slider
 npx expo install @expo/vector-icons expo-font
 npx expo install react-dom react-native-web @expo/metro-runtime
